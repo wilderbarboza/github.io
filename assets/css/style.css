@@ -106,7 +106,7 @@ footer{
 }
 @media(max-width:600px){
 header h2{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .dados_auto, .dados_posto{
     width: 80%;
