@@ -404,7 +404,7 @@ footer{
   .part8 .container{
       padding: 20px;
   }
-  nav ul {
+  .menu ul {
     display: none;
     flex-direction: column;
     position:absolute;
