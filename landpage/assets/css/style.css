@@ -392,7 +392,7 @@ footer{
       height: auto;
   }
   .setor{
-  margin-bottom: 10px;
+  margin-bottom: 10px
   }
   .display{
       display: none;
@@ -408,8 +408,9 @@ footer{
     display: none;
     flex-direction: column;
     position:absolute;
+    align-items: center;
     left: 0;
-    background-color: #e8367e;
+    background-color: #fff;
     width: 100%;
 }
 .menuMobile{
@@ -418,5 +419,15 @@ footer{
     justify-content: space-around;
    
 }
-
+.menu ul li{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+    border-bottom: #e8367e solid 2px;
+}
+}
+@media(min-width:1051px){
+    .menu ul{
+        display: flex;
+    }
 }
