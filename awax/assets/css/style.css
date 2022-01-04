@@ -820,8 +820,7 @@ nav{
 .menu ul{
     flex-direction: column;
 }
-.menu li{
-}
+
 .menu li a{
     font-weight: bold;
     height: 50px;
@@ -880,8 +879,7 @@ nav{
     .menu ul{
         flex-direction: column;
     }
-    .menu li{
-    }
+   
     .menu li a{
         font-weight: bold;
         height: 60px;
