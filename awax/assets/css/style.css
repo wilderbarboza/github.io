@@ -24,6 +24,9 @@ header{
 .logo{
     width: 100px;
 }
+.menu-opener{
+    display: none;
+}
 .menu{
     flex: 1;
     display: flex;
@@ -32,7 +35,7 @@ header{
 .logoimg{
     height: 80px;
     width: 80px;
-    border-radius: 40PXs;
+    border-radius: 40px;
     background-color: #b28756;
 }
 .menu ul,
@@ -801,5 +804,215 @@ footer {
 
 
 @media (min-width:450px) and (max-width:800px) {
+.logo{
+    margin-left: 30px;
+}
+nav{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 50vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right:0;
+}
+.menu ul{
+    flex-direction: column;
+}
+.menu li{
+}
+.menu li a{
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 30px;
+    border:0px;
+}
+.menu-opener{
+    display: block;
+    width: 30px;
+    margin-right: 30px;
+}
+.about-us{
+    flex-direction: column;
+}
+.about-us .about-us--left{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.about-us .about-us--right{
+    width: auto;
+}
+.section-services{
+    flex-wrap: wrap;
+}
+.section-services .services{
+    min-width:50% ;
+    margin-bottom: 30px;
+}
+.services:first-child{
+    border-left: 0;
+}
+.section-teams{
+    max-width: 580px;
+}
+.section-map--info{
+    width: auto;
+}
+}
 
+@media (max-width:450px) {
+    .logo{
+        margin-left: 30px;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right:0;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+    }
+    .menu li a{
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border:0px;
+    }
+    .menu-opener{
+        display: block;
+        width: 30px;
+        margin-right: 30px;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+    .about-us .about-us--left{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .about-us .about-us--right{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .about-us .about-us--right img{
+        width: 100%;
+    }
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-services .services{
+        min-width:100% ;
+        margin-bottom: 30px;
+        border: 0;
+    }
+    .services:first-child{
+        border-left: 0;
+    }
+    .section-teams{
+        max-width: 280px;
+    }
+    .projects-filter{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .photos-area{
+        width: 320px;
+
+    }
+    .photos-area .photo-img{
+        width: 300px;
+        height: 190px;
+        
+    }
+    .section-map{
+        padding-bottom: 280px;
+    }
+    .section-map--info{
+        width: auto;
+    }
+    .banner h1{
+        font-size: 35px;
+    }
+    .clients-depoiments p{
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section-companies .section-body{
+        display: flex;
+        justify-content: center;
+    }
+    .section-companies--area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 270px;
+    }
+    .section-price{
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+    }
+    .section-price .section-price--item{
+        margin: 10px;
+    }
+    .section-premium .slidearea{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .section-premium--left img{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .section-facts {
+        flex-wrap: wrap;
+    }
+    .section-share{
+        flex-wrap: wrap;
+        justify-content: normal;
+    }
+    .section-share .section-share--legend, .section-share .section-share--item{
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .section-contact {
+        max-width: 370px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-contact--split {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-contact input{
+        margin-bottom: 20px;
+    }
+    .footer--area{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer--area .footer--item{
+        margin-bottom: 20px;
+    }
+    .footer--area .footer--item.area1{
+        display: flex;
+        justify-content: center;
+    }
 }
