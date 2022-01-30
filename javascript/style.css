@@ -1,0 +1,52 @@
+.geral{
+    display: flex;
+}
+.primeiro{
+    margin-right: 50px;
+}
+.preto{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+.verde{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+button{
+    margin-top: 30px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.texto{
+    margin-top: 30px;
+    background-color: burlywood;
+    color: black;
+    width: 200px;
+    height: 1000px;
+}
+.scroll-top{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.active{
+display: block;
+}
+.desactive{
+    display: none;
+}
+#telefone{
+    display: none;
+}
