@@ -1,3 +1,8 @@
+let lista= ['Ovo', 'Farinha', 'Corante', 'Massa'];
+lista.push('prato');
+let res=lista;
+console.log(res)
+
 
 function altera(cor){
     document.getElementById('titulo').innerHTML= "quadrado"+" "+cor;
@@ -65,7 +70,7 @@ document.getElementById('telefone').style.display="block";
 if(reserva==true){
     document.getElementById('btntel').style.backgroundColor="#ff0000";
 }else{
-    
+
 }
 }
 // comentários de uma linha js
