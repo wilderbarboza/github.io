@@ -44,7 +44,5 @@ function vermelho(){
 function amarelo(){
     pause = true;
     cor=1;
-    document.getElementById('semaforo').setAttribute('src','assets/image/amarelo.png');
+    document.getElementById('semaforo').setAttribute('src','assets/image/amarelo.png')
 }
-
-let m = new Date();
