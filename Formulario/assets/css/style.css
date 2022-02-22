@@ -12,6 +12,12 @@ header{
 header h1{
     margin-bottom: 0px;
 }
+input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
 header h2{
     margin-top: 10px;
     text-align: center;
